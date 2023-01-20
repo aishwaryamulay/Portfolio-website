@@ -1,0 +1,400 @@
+<html>
+<head>
+    
+    <title>
+    Homepage
+</title>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    
+    <link rel="icon" type="image/png" href="Images/Photo_1593610897536.png">
+    
+    <!-- bootstrap 5 CDN links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Font awesome directory-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+        <!-- ***********CSS************!--> 
+    <style>
+        body {
+            background-image:url(Images/offwhite.jpg);
+            background-repeat:round;
+             background-attachment: fixed;
+            background-size: cover;
+             }
+    
+        
+        #border{
+            border:3px solid black;
+            width: 100%; 
+            font-family:sans-serif;
+            }
+        
+        #header{
+            font-style: normal;
+            color:FFD372;
+            font-size:50px;
+            background-color:000000;
+            height:100px;
+            padding:5px 5px;
+            text-shadow:7px 7px 30px grey;
+            padding:20px,20px;
+            width:100%;
+            border-left-width: 80%;  
+        }
+        .navbar{
+            border-width: 50%;
+             }
+         #footer{
+            text-align: center;
+            text-decoration-line: underline;
+            clear:both;
+            padding:inherit;  
+                }
+        .inline li{
+            display:inline-block;
+            padding:5px 10px;
+             font-weight: bold;
+            position:sticky;
+               }
+        a{
+          text-decoration: none; 
+        }
+        .info{
+            color:A8E890;
+            background-color: 749F82;   
+               }
+    
+           .sunline {
+            background-color:000000;
+            color:FF9F29;
+            font-size:25px;
+            border-style: none;
+            }
+        .content
+             {
+            color:4B5D67;
+            font-size: 30px;
+            margin:auto;
+            padding: inherit;
+            word-wrap: break-word;
+            }
+        #side
+        {
+            background-color:A8E890; 
+            color:425F57;
+            width:auto;
+            padding-bottom:20px;
+            font-size:30px;
+            margin:30px;
+            
+        }
+        .image{
+            padding:50px 50px;
+            border-width: thick
+            border-color:425F57;
+            border-style: groove;
+            width:500px;
+            margin-bottom: 30px;
+        }
+        .title{
+           text-decoration:none;
+            text-decoration-color: FFD372;
+            text-decoration-style:solid;
+            text-decoration-skip: none;
+            font-size: 40px;
+            font-family:sans-serif;
+        }
+        .sticky {
+              position: -webkit-sticky;
+              position: sticky;
+              top: 5;
+              padding: 0px;
+            margin:10px;
+        }
+         a:hover{
+            background-color: CFB997;
+            color:black;
+        }
+        .about{
+            
+            font-size: 55px;
+            font-style:initial;
+            color:black;
+          text-decoration: underline; 
+            
+        }
+        tr{
+            font-size: 18px; 
+        }
+
+        titlebar{
+            color:darkorange;
+            
+        }
+        .stream{
+           color:darkorange; 
+        }
+        .fontawesome{
+            font-size:30px;       
+            
+        }
+        
+    
+        
+    </style>
+    </head>
+    <body id="border" style="background-image: url(Images/offwhite.jpg)">  
+        
+    <!--body structure-->
+   <div class=container>
+      <div class="row" id=header>&nbsp;   &nbsp;
+          Portfolio
+   
+    </div>
+       <nav class="navbar navbar-expand-lg bg-light sticky ">
+  <div class="container sunline">
+     
+    <a class="navbar-brand" href="#">
+        <div class="spinner-grow text-light" role="status">
+              <span class="visually-hidden">Loading...</span>
+            
+         </div>
+     </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fad fa-stream  navbar-toggler-icon stream"></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#hello" style="color: FFD372">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myself" style="color: FFD372">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: FFD372">
+            Hobbies
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#youtube" style="color: FFD372">Youtube channel</a></li>
+              <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#insta" style="color: FFD372">Instagram Page</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#contact" style="color: FFD372">Contact</a>
+        </li>
+      </ul>
+  
+    </div>
+  </div>
+</nav>
+       
+      <div class=row>
+          <div class=col-6 content>
+              <!-- Banner section-->
+    <section id="home" class="banner_wrapper">
+    <div class="container" >  
+        <div>
+        <div class="col-lg-7 order-2 banner-content"> <br>
+            <h1 class="col-lg-7 order-lg-1 order-2 banner-content">Hello</h1>
+            <h3 class="text-uppercase about">I am Aishwarya Mulay</h3>
+            <h5 class="text-uppercase">Software Tester</h5>
+            <div class="mt-5"><hr>
+               
+                <a class="" href="/resume/Aishwarya%20Mulay%20%20Oct%2014-Resume.pdf" download>  <button type="button" class="btn btn-dark">
+                    <h3>Get Resume</h3>
+                    </button></a><hr>
+                <br><br>
+            </div>
+            </div>
+            
+        </div>
+        
+        </div>
+    
+              <h2 id=myself class="title"> <i class="fa fa-user"></i>    &nbsp;    ABOUT ME  &nbsp;</h2>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+             <h2 class="content"> 
+               Looking for a challenging role in a reputable organization to utilize my technical, database, and management 
+               skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends
+               in the IT sector.
+            </h2><hr>
+            <h2 class="title"><i class="fa fa-th"></i>  
+                &nbsp;   &nbsp;   MY TECHNICAL SKILL &nbsp;</h2>
+         <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+<h1>
+        <ul class="content">
+            <li>Languages :C,Java,JavaScript.</li>
+            <li>Database: Oracle SQL.</li>
+            <li> Testing Method : Manual and Automation 
+            testing</li>
+            <li> Framework:Selenium,Cucumber</li>
+            <li>Web Technologies: HTML5 , CSS, jQuery , Bootstrap.</li>
+        </ul>
+ </h1><hr>
+             <h2 class="title"><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal" >
+                    </i>   &nbsp;   &nbsp; MORE SKILL </h2>
+         <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+ <h1>         
+         <ul class="content">
+            <li>Multitasking</li>
+            <li>Creative</li>
+            <li>Team member</li>
+            <li> Willingness to learn </li>
+        </ul>
+ </h1>
+        
+        
+          <hr>
+        <h1 class="title"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>  &nbsp;   &nbsp; WORK EXPERIENCE </h1>
+         <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <br>
+         <b> <h3>Assistant Teacher (August 2021 to Jun 2022)</h3></b><br>
+                
+        <span class="content"> 
+                ●	Organization : Amrutvahini’s Nido International School<br>
+
+                ●	Responsible for teaching the Information and Communications Technology subject <br>
+                ●	Teaching students with Visual aids for better understanding.<br>
+                ●	Provide fundamental programming along with computer applications to the standard students.<br>
+                ●	Preparing presentations on various curriculum topics.<br>
+                ●	Making presentations for Smart Board for ICT subjects and giving presentations on Smart Board for computer related topics.<br>
+                ●	Preparing practical as well as theoretical assignments for the students.<br>
+                </span> 
+                <hr>
+            <h1 class="title">
+                <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>   
+                &nbsp;   &nbsp; INTERNSHIP </h1>
+         <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        
+        <br>
+       
+                <b><h3>Summer Internship (27th May to 27th July 2019)</h3></b><br>
+         <span class="content">
+                ●	Company- Scalar Interactive LLP <br>
+                ●	Title- Market analysis and	cognizance of consumer behaviour   about	the services of Scalar interactive.<br>
+                ●	Conducted   a   market research through	questionnaires in order to collect data related to understanding and awareness of consumers related Digital marketing services.<br>
+                ●	Analysis of customer behaviour towards Digital marketing services.<br>
+         </span>
+                <hr>
+                <h1 class="title"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal">
+                    </i>  &nbsp;   &nbsp;  EDUCATION </h1>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><br>
+                
+       
+   <table class="table table-dark table-striped">
+    
+                 <tr> 
+                     <th> Degree/Program  </th>
+                     <th> University  </th>
+                     <th> Academic Year  </th>
+                     <th> Percentage  </th>
+                     <th> Name of School/College </th>
+                </tr>
+                <tr> 
+                        <td>MBA(Marketing)	</td>
+                         <td>SPPU</td>
+                         <td>2020</td>  
+                         <td>9 SGPA</td>
+                          <td>Pravra Centre for Management Research & development,Pune</td>
+                </tr>
+                
+                  <tr> 
+                        <td>B.E (E &TC)</td>
+                         <td>SPPU</td>
+                         <td>2017</td>  
+                         <td>66.53%</td>
+                          <td>GES’s R.H. Sapat COE Nashik</td>
+                </tr>
+                  <tr> 
+                        <td>HSC	</td>
+                         <td>SPPU</td>
+                         <td>2013</td>  
+                         <td>69.50%</td>
+                          <td>	Sahyadri Junior College,Sangamner</td>
+                </tr>
+                
+                  <tr> 
+                        <td>SSC	</td>
+                         <td>SPPU</td>
+                         <td>2011</td>  
+                         <td>89.64%</td>
+                          <td>Digambar Ganesh Saraf Vidyalaya,Sangamner</td>
+                </tr>
+       
+        </table>
+        <br>
+                <hr>
+                <h1 class="title"><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal" >
+                    </i>  &nbsp;   &nbsp;  HOBBIES</h1>
+                 <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+                <h2 class="content"> I am very fascinated by making art and craft things.Arts and crafts describe a wide variety of activities involving making things with one's own hands.<br>
+                Here is the link of my youtube channel-hobbyist artist.<br>
+                <br><a href="https://www.youtube.com/channel/UCldtGqsYKXJYq2J0ZXhF6BA">
+                 <button type="button" class="btn btn-dark">
+                     <i class="fa-brands fa-youtube"></i><b id="youtube"> &nbsp;Youtube Channel Link</b></button></a><br>
+                     
+                    <br><a href="https://www.instagram.com/hobbyist_artist_aishwarya/?igshid=YmMyMTA2M2Y%3D"><hr>
+                   <button type="button" class="btn btn-dark"><i class="fa-brands fa-square-instagram"></i>
+                     <b id="insta"> &nbsp; Instagram Page Link &nbsp; </b></button></a>
+
+                </h2>
+                <hr>              
+                
+<h1>
+    <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal" class="title">
+    </i>&nbsp;   &nbsp; CONTACT</h1>
+         <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div><br>
+          <div class="w3-container content" id=contact>
+                  <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>  Software Tester</p>
+                  <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>  Laxminagar Township,Ghulewadi,<br> Sangamner, District-Ahamadnagar,<br>Pincode-422605</p>
+                  <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>   aishwaryamulay3@gmail.com</p>
+                <p><i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/aishwarya-mulay-852910161  </p>
+                  <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>    8329476046/7276085383</p><hr>
+            
+            </div>
+        </section>
+              </div>
+          <div class=col-6>
+          <img src="/Images/orange%20border2.jpg" class="img-thumbnail image" alt="Image"><br>
+              <img src="/Images/ORANGE%20EDUCATION.jpg" class="img-thumbnail image" alt="Image2">
+               <img src="/Images/orange%20border%203.jpg" class="img-thumbnail image" alt="work">
+              <img src="/Images/ORANGE%20EDUCATION.jpg" class="img-thumbnail image" alt="Education">
+              <img src="/Images/ORANGE%20HOBBIES.jpg" class="img-thumbnail image" alt="Hobbies">
+          </div>
+    </div> 
+        
+    
+        <!--footer section-->
+    <div id=footer> <footer> All right resrve to me.<br>
+        Copyright@2022</footer>
+    </div> 
+  
+        </div>
+    </body>
+
+</html>
